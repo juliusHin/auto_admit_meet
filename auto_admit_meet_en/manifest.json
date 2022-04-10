@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Meet Auto Admit English",
+    "version": "1.0",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://meet.google.com/*"
+          ],
+          "js": ["jquery-3.5.1.js","content.js"]
+        }
+      ]
+  }
